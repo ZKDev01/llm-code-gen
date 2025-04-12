@@ -27,3 +27,6 @@ def make_a_question(question:str):
   )
   return completion.choices[0].message.content
 
+
+class LLM_as_judge:
+  ... 
